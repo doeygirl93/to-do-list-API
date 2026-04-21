@@ -5,7 +5,12 @@ build-backend = "hatchling.build"
 [project]
 name = "resolution_week3_doeygirl93"
 version = "0.0.1"
-dependencies = [ "fastapi[standard]" ]
+description = "A FastAPI Todo List API for Week 3"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi[standard]"
+]
 
 [project.scripts]
 todo-api = "resolution_week3_doeygirl93.main:main"
